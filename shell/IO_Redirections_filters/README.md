@@ -31,7 +31,7 @@
 	- " " Whitespace — this is a tab, newline, vertical tab, form feed, carriage return, or space. Bash uses whitespace to determine where words begin and end. The first word is the command name and additional words become arguments to that command.
 	- '' Single quotes — protect the text inside them so that it has a literal meaning. With them, generally any kind of interpretation by Bash is ignored: special characters are passed over and multiple words are prevented from being split.
 	- "" Double quotes — protect the text inside them from being split into multiple words or arguments, yet allow substitutions to occur; the meaning of most other special characters is usually prevented.
-	- # Comment — the # character begins a commentary that extends to the end of the line. Comments are notes of explanation and are not processed by the shell.
+	- '#' Comment — the # character begins a commentary that extends to the end of the line. Comments are notes of explanation and are not processed by the shell.
 	- \ Escape — (backslash) prevents the next character from being interpreted as a special character. This works outside of quoting, inside double quotes, and generally ignored in single quotes.
 	- | Pipe — send the output from one command to the input of another command. This is a method of chaining commands together. Example: echo "Hello beautiful." | grep -o beautiful.
 	- ; Command separator — used to separate multiple commands that are on the same line.
@@ -61,7 +61,7 @@
 		- 2>&1
 * Question #3
 	- Which symbol should I use to start a comment?
-		- #
+		- '#'
 * Question #4
 	- Which command should I use to display the entire file content?
 		- cat
