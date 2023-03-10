@@ -3,5 +3,5 @@
 Holberton Dev Bootcamp - Montevideo 2023
 ## Projects
 - [x] [Vi, Emacs, Git](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/emacs_vi_git)
-- [x] [Shell](https://github.com/cristian-encalada/holbertonschool-shell/tree/master/permissions)
-- [x] [C](https://github.com/cristian-encalada/holbertonschool-shell/tree/master/permissions)
+- [x] [Shell](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/shell)
+- [x] [C](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/C)

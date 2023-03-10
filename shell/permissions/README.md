@@ -1,4 +1,4 @@
-# Shell Navigation Concepts
+# Shell Concepts
 > Repository created to review concepts related with shell  <br>
 Holberton Dev Bootcamp - Montevideo
 ## Shell Navigation
@@ -52,3 +52,7 @@ Holberton Dev Bootcamp - Montevideo
 * Question #9
 	- Which command should you use to delete a directory?
 		- rmdir
+## Shell Basics
+## Shell permissions
+## Shell I/O Redirections and filters
+## Shell Init files, variables and expansions
