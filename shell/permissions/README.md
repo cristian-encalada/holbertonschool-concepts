@@ -56,6 +56,7 @@
 	- groups <username>
 * How to print the effective userid
 	- id -u - Print only the effective user ID
+For more information check [id command](https://edumotivation.com/id-command/)
 ## Quiz Answers
 * Question #0
 	- Which command should I use for changing a file permission?
