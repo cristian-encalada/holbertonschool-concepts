@@ -3,9 +3,6 @@
 - [x] [Shell, I/O Redirection](http://linuxcommand.org/lc3_lts0070.php)
 - [x] [Special Characters](http://mywiki.wooledge.org/BashGuide/SpecialCharacters)
 ## Learning Objectives
-### General
-* What happens when you type $ ls -l *.txt
-	- Display a list on long format of all .txt files in the current directory.
 ### Shell, I/O Redirection
 * What do the commands head, tail, find, wc, sort, uniq, grep, tr do
 	- head - Outputs the first few lines of its input. Useful for getting the header of a file.
