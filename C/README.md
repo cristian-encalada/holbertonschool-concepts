@@ -1,7 +1,9 @@
-# Basics Concepts
-> Repository created to review all general concepts learned in Holberton bootcamp (Shell, Git, C, etc)
+# Shell Concepts
+> Reviewing general concepts learned about Linux and Shell
 Holberton Dev Bootcamp - Montevideo 2023
 ## Projects
-- [x] [Vi, Emacs, Git](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/emacs_vi_git)
-- [x] [Shell](https://github.com/cristian-encalada/holbertonschool-shell/tree/master/permissions)
-- [x] [C](https://github.com/cristian-encalada/holbertonschool-shell/tree/master/permissions)
+- [x] [Navigation](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/shell/navigation)
+- [x] [Basics](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/shell/basics)
+- [x] [Permissions](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/shell/permissions)
+- [x] [I/O Redirections and filters](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/shell/IO_Redirections_filters)
+- [x] [Init files, variables and expansions](https://github.com/cristian-encalada/holbertonschool-concepts/tree/master/shell/init_files_variables_expansions)
