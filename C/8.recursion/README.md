@@ -1,4 +1,4 @@
-# C -Recursion
+# C - Recursion
 ## Resources
 - [x] [Recursion, introduction](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2021/1/2818ba6f14f644b871dcbd746925fa15b8cd5937.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230314%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230314T232741Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=80011069ef3d1552f3b602bafdbb0627265e58d31165c7c2d130ad39de35e5b2)
 - [x] [What on Earth is Recursion?](https://www.youtube.com/watch?v=Mv9NEXX1VHc&ab_channel=Computerphile)
