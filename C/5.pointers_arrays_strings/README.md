@@ -73,11 +73,11 @@ int *p = &n;
 int arr[5];
 ```
 - What is the size in memory of the variable ``arr``?
-**20 bytes**
+	- **20 bytes**
 * Question #12
  - We declare the following variable
 ```
 int arr[5];
 ```
  - What is the equivalent of typing arr[2]?
-***(arr + 2)**
+	- ***(arr + 2)**
