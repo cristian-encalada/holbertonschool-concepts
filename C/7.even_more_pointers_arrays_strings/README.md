@@ -48,10 +48,10 @@ int a[5][2] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
  **4**
 * Question #6
 - What is the size of ``*p`` in this code?
-**8 bytes**
+	- **8 bytes**
 * Question #7
 - What is the size of ``*p`` in this code?
-**4 bytes**
+	- **4 bytes**
 * Question #8
 - What is stored inside a pointer to a pointer to an int?
 	- An address where an address is stored
