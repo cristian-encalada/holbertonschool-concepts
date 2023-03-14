@@ -50,8 +50,8 @@ array[n] = i;
 char *s1 = "";
 char *s2 = NULL;
 ```
-	- **The first one points to a 0-byte, the second one points to 0**
-	- **The first one can be dereferenced, not the second one**
+ **The first one points to a 0-byte, the second one points to 0**<br>
+ **The first one can be dereferenced, not the second one**
 * Question #6
  - What happens when one tries to dereference a pointer to NULL?
 	- Segmentation fault
