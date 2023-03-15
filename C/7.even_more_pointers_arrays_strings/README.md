@@ -11,13 +11,13 @@
 * What are the most common C standard library functions to manipulate strings
 ## Quiz answers
 * Question #0
-- What is the size of ``p`` in this code?
+- What is the size of ``p`` in this code? (64-bit architecture)
 ```
-int *p;int *p;
+int *p; 
 ```
 **8 bytes**
 * Question #1
-- What is the size of ``p`` in this code?
+- What is the size of ``p`` in this code? (64-bit architecture)
 ```
 int **p;
 ```
@@ -47,10 +47,15 @@ int a[5][2] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
 ```
  **4**
 * Question #6
-- What is the size of ``*p`` in this code?
+```
+int **p; 
+```
 	- **8 bytes**
 * Question #7
-- What is the size of ``*p`` in this code?
+- What is the size of ``*p`` in this code? (32-bit architecture)
+```
+int *p;
+```
 	- **4 bytes**
 * Question #8
 - What is stored inside a pointer to a pointer to an int?
