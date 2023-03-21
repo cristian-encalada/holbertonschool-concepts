@@ -31,9 +31,9 @@ Git is everything we’ve covered so far: a source code management tool, that co
 
 GitHub is one of many services that provide at the same time:<br>
 
- * a Git repository server to push your code to
- * a web UI to that view your repositories, with their files and commits
- * a number of extra features (managing your team and accesses, …) Two GitHub features you have to get familiarized with are:
+* a Git repository server to push your code to
+* a web UI to that view your repositories, with their files and commits
+* a number of extra features (managing your team and accesses, …) Two GitHub features you have to get familiarized with are:
 
 		- ``Forks`` : you can fork any repository on GitHub, and it will duplicate the repository’s codebase into repository that you own. For instance, if you fork twbs/bootstrap, and your GitHub username is “my_username”, then it will create the my_username/bootstrap repository, and it will remember where it was forked from. Usually, you aren’t allowed to push on other people’s repositories, so that will give you a repository that you can push to, since you own it.
 
