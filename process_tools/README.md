@@ -52,3 +52,5 @@ GitHub has many competitors, two of the main ones being GitLab and BitBucket (wh
 ### Important
 
 The present information was summarized from [Holberton School Certified programs](https://www.holbertonschool.com/) in order to review/study concepts.
+
+* [Holberton Uruguay](https://holbertonschool.uy/)
