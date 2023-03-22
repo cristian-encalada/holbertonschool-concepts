@@ -1,18 +1,13 @@
 # The Framework
 ## 0. Read
-```diff
-+ Read everything pertinent to the question / project at hand.
-```
+* Read everything pertinent to the question / project at hand.
 *Example: Read the project prerequisites, man pages, documentation, books, and articles.*
 
 **Try all the examples in the docs.**
 
 ## 1. Think
-```diff
-+ Pause, take a breath, and think of the solution. Make sure you understand all of the required concepts and algorithms before you proceed to solve tasks.
-
-+ Once you have found your algorithm or solution - and only then - can you start to code.
-```
+* Pause, take a breath, and think of the solution. Make sure you understand all of the required concepts and algorithms before you proceed to solve tasks.
+* Once you have found your algorithm or solution - and only then - can you start to code.
 **Repeat: Do NOT write any piece of code before you have the solution. Coding should only be translating your solution to computer code.**
 
 To think of your solution, try to break things down; a big problem is easier to solve when you break it into smaller, easier problems.
@@ -37,7 +32,7 @@ Finally, once you get that, try to see what changes you have to make to take car
 
 Can’t find the solution? Patiently think more, it’s out there. Also, ensure you read the resources thoroughly.
 
-##3. Ask why?
+## 3. Ask why?
 * Whether or not your code runs when you input it, make sure you know why it doesn’t (or does) work without looking at the error message.
 
 You must also understand the vocabulary, concepts, and tools you use, and question why they exist so you ultimately know.
@@ -58,17 +53,15 @@ This is your future, so ensure you have a strong foundation of understanding.
 * Still can’t understand why it doesn’t work? Most of the time, the answer is in the error message.
 
 ## 5. Google
-If you still can’t find the solution or understand why your code doesn’t work, google it *
+If you still can’t find the solution or understand why your code doesn’t work, google it (error message, specific question, specific concept, etc.)
 
-*error message, specific question, specific concept, etc.
-
-► NEVER TRUST THE INTERNET. A lot of the content on the Internet is wrong or incomplete. Always make sure what you are reading does make sense and is correct by challenging and testing every assumption.
+**► NEVER TRUST THE INTERNET. A lot of the content on the Internet is wrong or incomplete. Always make sure what you are reading does make sense and is correct by challenging and testing every assumption.
 
 ► You should only google something specific. This step is NOT about looking at how to do the project. It should only help answer a specific question or understand a concept.
 
 ► You are NOT allowed to look at the solution / other people’s code. Even for “analysis”. Looking at other people’s code / a solution is considered cheating.
 
-► NEVER copy and paste something from the Internet. You need to understand everything before you implement something you read. Typing yourself - instead of cp/paste - ensures that you better understand and not miss any details.
+► NEVER copy and paste something from the Internet. You need to understand everything before you implement something you read. Typing yourself - instead of cp/paste - ensures that you better understand and not miss any details.**
 
 ## 6. Google again
 * If you can’t find it, then Google again using more context in your search or by rephrasing your question.
@@ -81,15 +74,15 @@ It is part of your job to ask for help. You are expected to do so, just like you
 Repeat: It’s your job to ask and it’s your job to help.
 
 ### 7.0 If you ask for help
-Respect the time of others.
+* Respect the time of others.
 
-Make sure you spent enough time going through previous steps.
+* Make sure you spent enough time going through previous steps.
 
-Explain what the problem is and what you tried (i.e. how you followed The Framework). Give as much context as possible; this helps your peers help you, and will prepare you to be an effective software engineer.
+* Explain what the problem is and what you tried (i.e. how you followed The Framework). Give as much context as possible; this helps your peers help you, and will prepare you to be an effective software engineer.
 
-###7.1 If you are asked for help
+### 7.1 If you are asked for help
 
-Respect every question; there is nothing more demotivating than having someone laughing at your question or being asked “what? you still don’t know that?”
+* Respect every question; there is nothing more demotivating than having someone laughing at your question or being asked “what? you still don’t know that?”
 
 Do NOT touch others’ computers / keyboards. Explain, and let the person who asked for help type and correct their bugs/code.
 
@@ -101,7 +94,7 @@ Always start with making sure that the person who is asking for help went throug
 
 When explaining something, always start with whiteboarding the algorithm. Again, coding should come at the end, only to translate the solution to code. When the student understands the solution, then clean the whiteboard, and ask the student to do it again on their own. They need to go step by step from zero to understanding to showcase that they deeply understand.
 
-Give hints
+**Give hints**
 
 Example of hints: Try rephrasing the question: “So what you are really looking for is…
 
@@ -121,14 +114,14 @@ Again, coding should come at the end, only to translate the solution to code. Wh
 Examples:
 *Ask several students - from your cohort first, and then from previous cohorts. Ask specific, clear questions in your cohort Slack channel, topic specific channels, or reach out to students in other locations.*
 
-► Different people will have different ways of explaining, since we all communicate differently. If at first you don’t understand, continue to ask others and don’t be discouraged.
+**► Different people will have different ways of explaining, since we all communicate differently. If at first you don’t understand, continue to ask others and don’t be discouraged.**
 
-► Once you understand something on the whiteboard, wipe it and do it again on your own, since you only truly understand when you are able to do it on your own.
+**► Once you understand something on the whiteboard, wipe it and do it again on your own, since you only truly understand when you are able to do it on your own.**
 
 ## 9. Ask your ST
 Each non-inaugural cohort has a dedicated ST. STs are students from prior cohorts who exemplify peer learning, strong technical skills, and clear communication. They are here (in-person or on Slack) to help.
 
-► Remember to go through the previous 9 steps before asking a ST. The first thing that they will ask you is: “How did you follow The Framework?”, and you need to be able to efficiently answer.
+**► Remember to go through the previous 9 steps before asking a ST. The first thing that they will ask you is: “How did you follow The Framework?”, and you need to be able to efficiently answer.**
 
 ## 10. Ask other STs
 
@@ -143,10 +136,10 @@ Once you have your list, ask staff for an alum or mentor recommendation of who w
 
 Then, ask the alum/mentors for answers/advice to your specific and actionable questions.
 
-General Tips:
-Getting a high score is less important than understanding and being able to explain things.
+## General Tips:
+* Getting a high score is less important than understanding and being able to explain things.
 
-Always remember one thing: your goal is not to become great students. Your goal is to become great software engineers, because no one wants to hire students.
+Always remember one thing: **your goal is not to become great students. Your goal is to become great software engineers, because no one wants to hire students.**
 ## Important
 
 The present information was summarized from [Holberton School Certified programs](https://www.holbertonschool.com/) in order to review/study concepts.
