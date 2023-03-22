@@ -32,4 +32,4 @@ When you are in step 10, “Write your code on your computer”, you should code
 
 The present information was summarized from [Holberton School Certified programs](https://www.holbertonschool.com/) in order to review/study concepts.
 
-* [Holberton Uruguay](https://holbertonschool.uy/)
+* [Holberton School Uruguay](https://holbertonschool.uy/)
