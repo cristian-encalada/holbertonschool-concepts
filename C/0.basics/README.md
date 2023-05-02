@@ -48,7 +48,7 @@ The main() function is the entry point of a C program, where the program executi
 
 The standard syntax for the main() function is:
 
-```
+```C
 int main(void)
 {
     /* Main program code */
@@ -65,7 +65,7 @@ In C, there are several ways to print text to the console or terminal. Three com
 
 The printf function is a versatile function for printing formatted text. It allows you to print variables, expressions, and text with various formatting options. Here is an example of using printf to print a message to the console:
 
-```
+```C
 #include <stdio.h>
 
 int main()
@@ -80,7 +80,7 @@ In the above code, printf is used to print the string "Hello, world!" followed b
 
 The puts function is a simpler function for printing text. It automatically appends a newline character to the end of the text being printed. Here is an example of using puts to print a message to the console:
 
-```
+```C
 #include <stdio.h>
 
 int main()
@@ -96,7 +96,7 @@ In the above code, puts is used to print the string "Hello, world!" followed by 
 
 The putchar function is used to print a single character to the console. Here is an example of using putchar to print the characters 'H', 'e', 'l', 'l', 'o', and '!' to the console:
 
-```
+```C
 #include <stdio.h>
 
 int main() {
@@ -122,7 +122,7 @@ Here, type is the name of the data type for which you want to determine the size
 
 For example, to get the size of an integer (int) type,  use:
 
-```
+```C
 sizeof(int)
 ```
 This will return the `size of` the integer type in `bytes`.
@@ -149,6 +149,14 @@ The name `a.out` is short for "assembler output", which is a historical artifact
 
 __Q11. What is the official C coding style and how to check your code with ``betty-style``?__
 
+The official C coding style is a set of guidelines for writing C code that is easy to read, maintain, and understand. 
+
+One popular tool for checking C code against these guidelines is betty-style.
+
+Take a look at:
+- [betty-style-documentation](https://github.com/holbertonschool/Betty/wiki)
+
+- [betty-style-repository](https://github.com/hs-hq/Betty)
 
 __Q12. How to find the right header to include in your source code when using a standard library function__
 
@@ -174,7 +182,7 @@ By convention, a __return value of 0__ from the main function __indicates succes
 
 For example, the following code would exit the program with a status of 0:
 
-```
+```C
 int main()
 {
     /* program code */
@@ -183,7 +191,7 @@ int main()
 ```
 While this code would exit with a status of 1:
 
-```
+```C
 int main()
 {
     /* program code */
