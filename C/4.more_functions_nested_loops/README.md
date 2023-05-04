@@ -1,23 +1,22 @@
 # C - Functions, nested loops
+
+## Table of contents
+   * [Resources](#resources)
+   * [Quiz Answers](#quiz-answers)
+
 ## Resources
-- [x] [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss&ab_channel=ZackAnnaTutorials)
-- [x] [C - Functions](https://www.youtube.com/watch?v=qMlnFwYdqIw&ab_channel=JonathanEngelsma)
-- [x] [Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=qMlnFwYdqIw&ab_channel=JonathanEngelsma)
-- [x] [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
-- [x] [C - Header files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
-## Learning Objectives
-### General
-* What are nested loops and how to use them
-* What is a function and how do you use functions
-* What is the difference between a declaration and a definition of a function
-* What is a prototype
-* Scope of variables
-* What are the gcc flags ``-Wall -Werror -pedantic -Wextra -std=gnu89``
-* What are header files and how to to use them with ``#include``
+- [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss&ab_channel=ZackAnnaTutorials)
+- [C - Functions](https://www.youtube.com/watch?v=qMlnFwYdqIw&ab_channel=JonathanEngelsma)
+- [Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=qMlnFwYdqIw&ab_channel=JonathanEngelsma)
+- [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
+- [C - Header files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
+
 ## Quiz answers
-* Question #0
-- What is the output of the following piece of code?
-```
+
+__Question #0__
+
+What is the output of the following piece of code?
+```c
 int i;
 
 for (i = 48; i < 58; i++)
@@ -25,10 +24,13 @@ for (i = 48; i < 58; i++)
     printf("%c", i);
 }
 ```
-**0123456789**
-* Question #1
-- What is the output of the following piece of code?
-```
+
+__Answer: 0123456789__
+
+__Question #1__
+
+What is the output of the following piece of code?
+```C
 int i;
 
 i = 0;
@@ -38,10 +40,12 @@ while (i < 10)
     i++;
 }
 ```
-**0101010101**
-* Question #2
-- What is the output of the following piece of code?
-```
+__Answer: 0101010101__
+
+__Question #2__
+
+What is the output of the following piece of code?
+```C
 int i;
 
 for (i = 0; i < 10; i++)
@@ -49,10 +53,12 @@ for (i = 0; i < 10; i++)
     printf("%d", i * 2);
 }
 ```
-**024681012141618**
-* Question #3
-- What is the output of the following piece of code?
-```
+**Answer: 024681012141618**
+
+__Question #3__
+
+What is the output of the following piece of code?
+```C
 int i;
 
 i = 0;
@@ -62,10 +68,12 @@ while (i < 10)
     printf("%d", i / 2);
 }
 ```
-**0112233445**
-* Question #4
-- What is the output of the following piece of code?
-```
+**Answer: 0112233445**
+
+__Question #4__
+
+What is the output of the following piece of code?
+```C
 int i;
 
 i = -9;
@@ -75,10 +83,12 @@ while (i < 0)
     i++;
 }
 ```
-**987654321**
-* Question #5
-- What is the output of the following piece of code?
-```
+**Answer: 987654321**
+
+__Question #5__
+
+What is the output of the following piece of code?
+```C
 int i;
 
 i = 9;
@@ -87,10 +97,12 @@ while (i--)
     printf("%d", i);
 }
 ```
-**876543210**
-* Question #6
-- What is the output of the following piece of code?
-```
+**Answer: 876543210**
+
+__Question #6__
+
+What is the output of the following piece of code?
+```C
 int i;
 
 i = 9;
@@ -99,20 +111,24 @@ while (--i)
     printf("%d", i);
 }
 ```
-**87654321**
-* Question #7
-- What is the return value of the following function?
-```
+**Answer: 87654321**
+
+__Question #7__
+
+What is the return value of the following function?
+```C
 int some_function(void)
 {
     printf("%d", 12);
     return (98);
 }
 ```
-**98**
-* Question #8
-- What is the return value of the following function?
-```
+**Answer: 98**
+
+__Question #8__
+
+What is the return value of the following function?
+```C
 int some_function(void)
 {
     int i;
@@ -124,4 +140,4 @@ int some_function(void)
     return(i);
 }
 ```
-**10**
+**Answer: 10**
