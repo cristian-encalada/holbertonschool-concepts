@@ -255,10 +255,6 @@ With a header file, the related declarations appear in only one place. If they n
 
 The header file eliminates the labor of finding and changing all the copies as well as the risk that a failure to find one copy will result in inconsistencies within a program.
 
-Sources:
-- [gcc.gnu.org](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html)
-- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)
-
 __Syntax of Header Files in C__
 
 We can include header files in C by using one of the given two syntaxes whether it is a pre-defined or user-defined header file.
@@ -268,6 +264,10 @@ We can include header files in C by using one of the given two syntaxes whether 
        or
 #include "filename.h"    // for files in same directory as source file
 ```
+
+Sources:
+- [gcc.gnu.org](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html)
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)
 
 ## Quiz answers
 
