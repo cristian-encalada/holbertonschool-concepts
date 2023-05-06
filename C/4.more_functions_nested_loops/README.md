@@ -2,6 +2,7 @@
 
 ## Table of contents
    * [Resources](#resources)
+   * [Learning Objectives](#learning-objectives)
    * [Quiz Answers](#quiz-answers)
 
 ## Resources
@@ -141,3 +142,5 @@ int some_function(void)
 }
 ```
 **Answer: 10**
+
+[Go up](#table-of-contents)

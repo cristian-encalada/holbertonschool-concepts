@@ -1,4 +1,10 @@
 # C - Pointers, arrays and strings
+
+## Table of contents
+   * [Resources](#resources)
+   * [Learning Objectives](#learning-objectives)
+   * [Quiz Answers](#quiz-answers)
+
 ## Resources
 - [C - Arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm)
 - [C - Pointers](https://www.tutorialspoint.com/cprogramming/c_pointers.htm)
@@ -257,3 +263,5 @@ int arr[5];
 ```
 What is the equivalent of typing arr[2]?
 - ***(arr + 2)**
+
+[Go up](#table-of-contents)
