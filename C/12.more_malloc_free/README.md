@@ -1,29 +1,49 @@
 # C - More malloc, free
-## Resources
-- [x] [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/do-i-cast-the-result-of-malloc)
-## Learning Objectives
-### General
-* How to use the ``exit`` function
-* What are the functions ``calloc`` and ``realloc`` from the standard library and how to use them
-## Quiz answers
-* Question #0
-- To allocate enough space for an array of 10 integers (on a 64bit, Linux machine), I can use:
-	- malloc(10 * sizeof(int))
-* Question #1
-- If I want to copy the string “Best School” into a new space in memory, I can use this statement to reserve enough space for it (select all valid answers):
-	- malloc(sizeof(“Best School”))
-	- malloc(12)
-	- malloc(strlen(“Best School”) + 1)
-* Question #2
-- malloc returns a pointer
-	- True
-* Question #3
-- malloc returns an address
-	- True
-* Question #4
-- What is wrong with this code:
-```
 
+## Table of contents
+
+   * [Resources](#resources)
+   * [Learning Objectives](#learning-objectives)
+   * [Quiz Answers](#quiz-answers)
+
+## Resources
+
+- [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/do-i-cast-the-result-of-malloc)
+
+## Learning Objectives
+
+Q1. How to use the ``exit`` function
+
+Q2. What are the functions ``calloc`` and ``realloc`` from the standard library and how to use them
+
+## Quiz answers
+
+__Question #0__
+
+To allocate enough space for an array of 10 integers (on a 64bit, Linux machine), I can use:
+- malloc(10 * sizeof(int))
+
+__Question #1__
+
+If I want to copy the string “Best School” into a new space in memory, I can use this statement to reserve enough space for it (select all valid answers):
+- malloc(sizeof(“Best School”))
+- malloc(12)
+- malloc(strlen(“Best School”) + 1)
+
+__Question #2__
+
+malloc returns a pointer
+- True
+
+__Question #3__
+
+malloc returns an address
+- True
+
+__Question #4__
+
+What is wrong with this code:
+```C
 int cp(void)
 {
     char *s;
@@ -33,25 +53,31 @@ int cp(void)
     return (0);
 }
 ```
-	 * There is no comment
-	 * malloc can fail so we should check its return value all the time before using the pointers returned by the function.
-* Question #5
-- You can do this:
-```
+- There is no comment
+- malloc can fail so we should check its return value all the time before using the pointers returned by the function.
+
+__Question #5__
+
+You can do this:
+```C
 free("Best School");
 ```
-	* No
-* Question #6
-- You can do this:
-```
+* Answer: No
+
+__Question #6__
+
+You can do this:
+```C
 char str[] = "Best School";
 
 free (str);
 ```
-	* No
-* Question #7
-- You can do this:
-```
+* Answer: No
+
+__Question #7__
+
+You can do this:
+```C
 char *s;
 
 s = strdup("Best School");
@@ -60,13 +86,17 @@ if (s != NULL)
     free(s);
 }
 ```
-	- Yes
-* Question #8
-- The memory space reserved when calling malloc is on:
-	- The heap
-* Question #9
-- What will you see on the terminal?
-```
+- Yes
+
+__Question #8__
+
+The memory space reserved when calling malloc is on:
+- The heap
+
+__Question #9__
+
+What will you see on the terminal?
+```C
 int main(void)
 {
     int *ptr;
@@ -76,4 +106,6 @@ int main(void)
     return (0);
 }
 ```
-		- Segmentation Fault
+- Segmentation Fault
+
+[Go up](#table-of-contents)
