@@ -4,6 +4,7 @@
 
    * [Resources](#resources)
    * [Learning Objectives](#learning-objectives)
+   * [Quiz Answers](#quiz-answers)
 
 ## Resources
 
