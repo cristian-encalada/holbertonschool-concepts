@@ -31,7 +31,11 @@ __Project: Monty Interpreter__
 - [The Monty programming language](https://montyscoconut.github.io/)
 - [How To Create An Interpreter Of Bytecodes In Fifteen Minutes](https://www.smartspate.com/how-to-create-an-interpreter-of-bytecodes/)
 
+__Project: Monty Interpreter Flowchart v1__
 
+- link: https://drive.google.com/file/d/1_SoJnkqARuwR0PYTqqJ3LpddBS2cwGIu/view?usp=sharing
+
+<img alt="flowchart_monty" src="../img/monty_flowchart.drawio.svg">
 
 ## Learning Objectives
 
