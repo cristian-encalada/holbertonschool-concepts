@@ -35,7 +35,7 @@ __Project: Monty Interpreter Flowchart v1__
 
 - link: https://drive.google.com/file/d/1_SoJnkqARuwR0PYTqqJ3LpddBS2cwGIu/view?usp=sharing
 
-<img alt="flowchart_monty" src="../img/monty_flowchart.drawio.svg">
+<img alt="flowchart_monty" src="./img/monty_flowchart.drawio.svg">
 
 ## Learning Objectives
 
