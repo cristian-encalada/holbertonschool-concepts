@@ -141,22 +141,31 @@ __Question #7 (Review)__
 What is the time complexity of this function / algorithm?
 
 ```C
-void f(unsigned int n)
+void f(int n)
 {
     int i;
     int j;
 
     for (i = 0; i < n; i++)
     {
-        for (j = 1; j < n; j = j * 2)
+        if (i % 2 == 0)
         {
-            printf("[%d] [%d]\n", i, j);
+            for (j = 1; j < n; j = j * 2)
+            {
+                printf("[%d] [%d]\n", i, j);
+            }
+        }
+        else
+        {
+            for (j = 0; j < n; j = j + 2)
+            {
+                printf("[%d] [%d]\n", i, j);
+            }
         }
     }
 }
 ```
-Checker: O(n^2)
-Correct? O(nlog(n))
+O(n^2)
 
 __Question #8__
 
@@ -212,7 +221,8 @@ void f(int n)
      }
 }
 ```
-O(n^2)
+- __O(n^2) (checker)__
+- More accurate answer: O(n^3)
 
 __Question #11__
 
@@ -260,8 +270,8 @@ What is the time complexity of inserting after the nth element of a singly linke
 __Question #18__
 
 What is the time complexity of removing the nth element of a singly linked list? (Assuming you have a pointer to the node to remove)
-- O(n) -> __checker -> wrong__
-- O(1) -> does not require traversing the entire list or performing any additional operations that depend on the size of the list.
+- O(n) - __worst case__ -> If you don't have a pointer to the previous node. This case requires traversing the list from the head to find the node before the nth node.
+- O(1) -> If we have a pointer to the previous node.
 
 __Question #19__
 
@@ -281,8 +291,8 @@ What is the time complexity of accessing the nth element of a doubly linked list
 __Question #22__
 
 Assuming you have a pointer to the node to insert, what is the time complexity of inserting after the nth element of a doubly linked list?
-- O(n) -> __checker -> wrong__
-- O(1) -> constant, and does not depend on the size of the list (n)
+- O(n) -> __worst case__ -> when we don't have a direct pointer to the nth node and we need to traverse the list to find it.
+- O(1) -> Doubly linked lists allow for constant time insertion at a given position when we have a pointer to the node.
 
 __Question #23__
 
