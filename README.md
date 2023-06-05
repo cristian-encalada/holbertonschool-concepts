@@ -30,10 +30,24 @@ Holberton Dev Bootcamp - Montevideo 2023
     - [14. C - Structures, typedef](/C/14.structures/)
     - [15. C - Function pointers](/C/15.function_pointers/)
     - [16. C - Variadic functions](/C/16.variadic_functions/)
-    - [17. C Project - Printf](https://github.com/cristian-encalada/holbertonschool-printf)
+    - [17. [C - Team Project] - Printf](https://github.com/cristian-encalada/holbertonschool-printf)
     - [18. C - Singly linked lists](/C/18.Singly_linked_lists/)
     - [19. C - Doubly linked lists](/C/19.%20doubly_linked_lists/)
     - [20. C - Bit Manipulation](/C/20.bit_manipulation/)
     - [21. C - File Input/Output](/C/21.hash_tables/)
     - [22. C - Hash Tables](/C/22.file_IO/)
-    - [23. C Project - Simple Shell](https://github.com/Hiojam/holbertonschool-simple_shell)
+    - [23. [C - Team Project] - Simple Shell](https://github.com/Hiojam/holbertonschool-simple_shell)
+    - [24. [C - Team Project] - Stacks, Queues - LIFO, FIFO](/C/24.stacks_queues/)
+    - [25. [C - Team Project] - Binary Trees](/C/25.binary_trees/)
+    - [26. [C - Team Project] - Sorting algorithms & Big O](/C/26.sorting_algorithms/)
+    - [27. C - Search Algorithms](/C/27.search_algorithms/)
+
+4. [Python](/Python/)
+    - [0. Python - Hello, World](/python-hello_world/)
+    - [1. Python - If/else, loops, functions](/python-if_else_loops_functions/)
+    - [2. Python - Import & Modules](/python-import_modules/)
+
+## Author
+
+* __Cristian Encalada__ - *Holberton Student* 
+    - Github: [Cristian Encalada](https://github.com/cristian-encalada/)
